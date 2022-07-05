@@ -2,7 +2,10 @@
 # Create a function called divisible_by_ten that accepts an integer and returns true if it is divisible by 10 and false if it is not.
 # Hint: Consider the modulo operator.
 
-# Tests:
+def divisible_by_ten(x):
+  return x
+
+# Tests -- don't delete anything below this line!
 assert divisible_by_ten(200) == True
 assert divisible_by_ten(10) == True
 assert divisible_by_ten(50000) == True
