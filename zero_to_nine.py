@@ -9,5 +9,5 @@ def zero_to_nine():
   return the_numbers
 
 
-# Tests: No tests this time. The function should simply output something.
+# Tests:
 assert zero_to_nine() == "0123456789"
